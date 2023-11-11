@@ -3,7 +3,7 @@ import './App.css';
 
 const ColorPicker = ({ colors }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedColor, setSelectedColor] = useState('');
+  const [, setSelectedColor] = useState('');
 
   const handleColorClick = (color) => {
     setSelectedColor(color);
